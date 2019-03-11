@@ -1,0 +1,600 @@
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 1temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 4temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 7temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 10temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 13temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 16temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 19temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 22temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 25temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+SEARCHING RESULTS FOR THREADS COUNT = 28temp.txt
+Index of first appearance: 540
+Appearance frequency: 1
+temp_01.txt
+Index of first appearance: 540
+Appearance frequency: 1

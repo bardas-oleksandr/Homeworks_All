@@ -1,0 +1,8 @@
+Flowers.RoseFlower	yellow	1.8	0	
+Flowers.Tulip	yellow	1.4	0	
+Flowers.RoseFlower	white	1.7	10	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	
+Flowers.Tulip	red	1.3	0	
+Flowers.Gladiolus	white	1.5	0	
+Flowers.Tulip	orange	1.5	0	
+Flowers.Carnation	red	1.3	0	
+Flowers.RoseFlower	red	2.0	25	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	

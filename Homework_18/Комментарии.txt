@@ -1,0 +1,43 @@
+Задача 1. Properties
+Для того чтобы задать цены по умолчанию, надо:
+	-выбрать в меню 2-Owner
+	-выбрать в меню 3-Set default prices
+	-последовательно выбирать вид, цвет цветка и задавать цену
+В классе ProcessOwner смотрите метод private void setDefaultPriceProcess()
+В классе Store смотрите методы:
+    void saveDefaultPrices()
+    void checkPrices()
+    private double setDefaultPrice(String name, String color)
+
+Задача 2. Optional
+Optional был использован
+в классе Store в следующих методах:
+	private Optional<ProductList<Product>> getProductList(String name, String color)
+	void setPrice(String productName, String color, double price)
+	Product removeProduct(String productName, String color)
+	int productsAmount(String name, String color)
+в классе FlowerShop в методе:
+	public void addToPurchaseList(String name, String color, double price, int count)
+
+Задача 3. Observerable
+Я хотел сделать Observable класс ProductList, но он уже был наследован от класса LinkedList<T>.
+Поэтому я завернул все поля класса ProductList в новый класс - ProdListParameters и сделал
+Observable его.
+Программа наблюдает за любым изменением цены товара и сохраняет в отдельный файл всю историю изменений цен
+Чтобы вывести данные файла на консоль, нужно выбрать в меню следующее:
+2 - Owner
+4 - Show the archive of price changing
+
+Задача 4. Timer и TimerTask
+Смотрите класс PriceManager extends TimerTask
+В классе Store смотрите методы:
+    void setShedule(double discount, Date dropTime, Date comeBackTime, long period)
+    void changeAllPrices(double discount)
+Продавец может задать период суток, в течении которого будет действовать скидка.
+Скидка будет устанавливаться и отменяться каждый день в одно и то же время.
+Для этого надо выбрать в меню:
+    2 - Owner
+    5 - Discount settings
+    задать размер скидки в долларах
+    задать часы и минуты начала действия скидки, затем часы и минуты окончания.
+Результат обновления цены будет зафиксирован объектом типа Observer из третьей задачи.

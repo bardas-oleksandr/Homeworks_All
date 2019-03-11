@@ -1,0 +1,12 @@
+Fri Mar 16 02:01:02 EET 2018	Rose flower	red		- 0.0$
+Fri Mar 16 02:01:02 EET 2018	Rose flower	red		- 2.5$
+Fri Mar 16 02:01:34 EET 2018	Tulip		yellow	- 0.0$
+Fri Mar 16 02:01:34 EET 2018	Tulip		yellow	- 2.1$
+Fri Mar 16 02:01:56 EET 2018	Tulip		orange	- 0.0$
+Fri Mar 16 02:01:56 EET 2018	Tulip		orange	- 2.1$
+Fri Mar 16 02:03:00 EET 2018	Rose flower	red		- 1.25$
+Fri Mar 16 02:03:00 EET 2018	Tulip		yellow	- 1.05$
+Fri Mar 16 02:03:00 EET 2018	Tulip		orange	- 1.05$
+Fri Mar 16 02:04:00 EET 2018	Rose flower	red		- 2.5$
+Fri Mar 16 02:04:00 EET 2018	Tulip		yellow	- 2.1$
+Fri Mar 16 02:04:00 EET 2018	Tulip		orange	- 2.1$

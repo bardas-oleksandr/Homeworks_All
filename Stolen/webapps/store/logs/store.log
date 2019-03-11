@@ -1,0 +1,432 @@
+2018-08-08 16:07:11,441 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:07:11,560 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:07:11,618 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:07:11,647 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:07:11,651 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:07:11,659 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:07:11,667 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:07:11,706 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 16:07:11,718 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:07:11,719 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:07:11,722 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:07:11,725 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:13:59,207 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:13:59,391 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:13:59,420 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:13:59,443 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:13:59,446 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:13:59,451 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:13:59,455 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:13:59,458 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 16:13:59,465 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:13:59,467 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:13:59,471 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:13:59,474 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:22:42,121 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:22:42,320 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:22:42,344 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:22:42,383 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:22:42,388 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:22:42,399 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:22:42,407 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:22:42,416 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 16:22:42,427 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:22:42,428 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:22:42,432 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:22:42,435 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:24:10,461 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:24:10,559 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:24:10,583 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:24:10,602 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:24:10,606 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:24:10,611 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:24:10,615 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:24:10,619 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 16:24:10,629 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:24:10,630 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:24:10,634 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:24:10,639 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:28:55,974 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:28:56,067 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:28:56,086 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:28:56,114 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:28:56,120 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:28:56,126 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:28:56,131 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:28:56,139 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 16:28:56,146 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:28:56,148 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:28:56,154 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:28:56,157 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:40:45,177 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:40:45,274 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:40:45,292 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:40:45,308 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:40:45,311 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:40:45,315 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:40:45,318 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:40:45,322 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 16:40:45,329 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 16:40:45,330 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 16:40:45,331 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 16:40:45,334 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 18:28:24,801 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 18:28:24,918 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 18:28:24,943 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 18:28:24,966 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 18:28:24,971 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 18:28:24,976 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 18:28:24,981 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 18:28:24,989 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 18:28:24,994 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 18:28:25,000 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 18:28:25,003 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 18:28:25,006 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 20:23:01,796 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:23:01,875 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:23:01,894 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:23:01,914 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 20:23:01,916 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 20:23:01,918 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 20:23:01,923 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:23:01,927 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 20:23:01,933 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 20:23:01,934 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:23:01,936 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 20:23:01,938 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 20:25:24,530 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:25:24,622 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:25:24,642 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:25:24,665 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 20:25:24,668 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 20:25:24,674 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 20:25:24,679 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:25:24,684 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 20:25:24,689 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 20:25:24,689 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:25:24,689 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 20:25:24,694 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 20:26:06,162 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:26:06,328 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:26:06,350 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:26:06,370 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 20:26:06,375 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 20:26:06,383 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 20:26:06,390 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:26:06,402 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-08 20:26:06,408 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-08 20:26:06,413 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-08 20:26:06,413 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-08 20:26:06,418 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-09 12:36:58,723 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-09 12:36:58,915 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-09 12:36:58,940 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-09 12:36:58,968 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-09 12:36:58,977 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-09 12:36:58,986 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-09 12:36:58,990 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-09 12:36:58,997 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-09 12:36:59,006 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-09 12:36:59,007 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-09 12:36:59,010 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-09 12:36:59,015 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:23:45,154 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:23:45,433 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:23:45,461 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:23:45,487 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:23:45,491 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:23:45,496 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:23:45,499 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:23:45,502 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-29 16:23:45,508 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:23:45,509 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:23:45,515 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:23:45,519 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:31:41,837 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:31:42,027 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:31:42,051 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:31:42,085 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:31:42,092 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:31:42,100 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:31:42,110 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:31:42,120 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-29 16:31:42,130 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:31:42,130 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:31:42,130 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:31:42,139 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:34:28,194 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:34:28,325 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:34:28,342 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:34:28,361 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:34:28,364 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:34:28,369 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:34:28,373 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:34:28,378 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-29 16:34:28,383 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:34:28,384 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:34:28,388 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:34:28,396 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:37:29,613 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:37:29,797 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:37:29,830 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:37:29,859 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:37:29,863 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:37:29,869 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:37:29,875 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:37:29,878 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-29 16:37:29,881 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:37:29,881 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:37:29,890 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:37:29,895 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:39:21,881 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:39:22,039 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:39:22,064 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:39:22,081 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:39:22,086 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:39:22,092 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:39:22,095 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:39:22,105 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-29 16:39:22,113 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:39:22,114 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:39:22,117 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:39:22,122 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:48:39,803 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:48:39,924 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:48:39,943 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:48:39,967 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:48:39,971 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:48:39,977 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:48:39,977 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:48:39,985 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-08-29 16:48:39,993 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-08-29 16:48:39,994 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-08-29 16:48:39,997 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-08-29 16:48:39,997 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-09-12 23:05:49,128 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-09-12 23:05:49,374 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-09-12 23:05:49,396 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-09-12 23:05:49,417 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-09-12 23:05:49,421 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-09-12 23:05:49,427 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-09-12 23:05:49,431 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-09-12 23:05:49,445 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_INSERTED_PRODUCER
+2018-09-12 23:05:49,454 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_UPDATED_PRODUCER
+2018-09-12 23:05:49,458 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NOT_VALID_NEW_PRODUCER
+2018-09-12 23:05:49,464 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER
+2018-09-12 23:05:49,469 ERROR h.i.s.e.StoreException [main] Error: Error # 500
+Message: NO_PRODUCER

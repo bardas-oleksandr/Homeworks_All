@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--<context:annotation-config/>--><!--Подключаем АВТОСВЯЗЫВАНИЕ (только автосвязывание) через аннотации
+    Так как у нас ниже есть объявление
+    <context:component-scan base-package="ua.levelup.Anno"/>
+    то строка <context:annotation-config/> нам уже не нужна-->
+
+
+    <context:component-scan base-package="ua.levelup.Anno"/><!--Делает все то же,
+     что и context:annotation-config, плюс настраивает Спринг на ОПРЕДЕЛЕНИЕ бинов через аннотации-->
+
+    <bean id="storyteller" class="ua.levelup.XML.Publish.Storyteller">
+        <property name="hero">
+            <ref bean="braveKnight"/>    <!--Обращаемся к бину из другого xml-файла, который будет родительским
+            Если в нашем файлу уже есть бин с таким же id (braveKnight), то надо тег bean заменить тегом parent
+            например <ref parent="braveKnight"/>
+            Если же использовать такую запись  <ref local="braveKnight"/>   - это отключает описк в родительском
+            файле-->
+        </property>
+    </bean>
+
+    <bean id="oldStoryteller" class="ua.levelup.XML.Publish.OldStoryteller">
+        <property name="storyMap">
+            <map>
+                <!--І способ описания-->
+                <entry key="funnyStory" value-ref="braveKnight"/>
+                <!--ІІ способ описания-->
+                <entry key="sadStory">
+                    <ref bean="cowardKnight"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+    <util:map id="map" map-class="java.util.HashMap">
+        <!--І способ описания-->
+        <entry key="funnyStory" value-ref="braveKnight"/>
+        <!--ІІ способ описания-->
+        <entry key="sadStory">
+            <ref bean="cowardKnight"/>
+        </entry>
+    </util:map>
+
+    <!--Lookup method injection-->
+    <bean id="casanova" class="ua.levelup.XML.LookupMethodInjection.Casanova">
+        <lookup-method name="getDamsel" bean="damsel"/> <!--Бин casanova является синглтоном
+        но при этом при каждом вызове метода getDamsel создается новый внедренный объект бина damsel-->
+    </bean>
+
+    <!--Бин abstractCasanova по сути такой же как и casanova, с той лишь разницей что бин abstractCasanova
+    не имеет реализации метода getDamsel. То есть это асбтрактный класс.
+    МЫ СОЗДАЕМ ОБЪЕКТ АБСТРАКТНОГО КЛАССА!!!-->
+    <bean id="abstractCasanova" class="ua.levelup.XML.LookupMethodInjection.AbstractCasanova">
+        <lookup-method name="getDamsel" bean="damsel"/>
+    </bean>
+
+    <bean id="damsel" class="ua.levelup.XML.LookupMethodInjection.Damsel" scope="prototype"/>
+
+    <!--Создание экземпляров абстрактного класса-->
+    <bean id="archer" class="ua.levelup.XML.CreateAbstract.Archer">
+        <lookup-method name="getWeapon" bean="bow"/>    <!--Каждый вызов метода getWeapon приводит к внедрению
+        нового экземпляра бина bow-->
+    </bean>
+
+    <bean id="bow" class="ua.levelup.XML.CreateAbstract.Weapon">
+        <constructor-arg value="bow"/>
+        <constructor-arg value="10"/>
+    </bean>
+
+    <!--Method replacement-->
+    <bean id="girl" class="ua.levelup.XML.MethodReplacement.Girl">
+        <constructor-arg value="Lilly"/>
+    </bean>
+
+    <bean id="slut" class="ua.levelup.XML.MethodReplacement.Girl">
+        <constructor-arg value="Lilly"/>
+        <replaced-method name="speak" replacer="methodReplacer">
+            <arg-type>String</arg-type> <!--Это нужно для идентификации метода среди набора перегруженных методов-->
+        </replaced-method>
+    </bean>
+
+    <bean id="methodReplacer" class="ua.levelup.XML.MethodReplacement.MyMethodReplacer"/>
+
+    <!--Именование бинов-->
+    <bean id="String1" class="java.lang.String"/>
+    <bean name="String2" class="java.lang.String"/>
+    <bean class="java.lang.String"/>
+    <bean id="name0" name="name1 name2,name3;name4" class="java.lang.String"/>    <!--Возможные разделители
+    между псевдонимами бина-->
+    <alias name="name1" alias="name5"/>
+
+</beans>

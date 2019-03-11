@@ -1,0 +1,36 @@
+#button_wrapper{
+	width:142px;
+	margin:10px auto;
+}
+
+body{
+	background:url(../images/background.jpg);
+	background-repeat:no-repeat;
+	color:#FFFF00;
+	font: bold 20px Tahoma, sans-serif;
+	min-width:400px;
+	max-width:1680px;
+}
+
+.label_class{
+	position:relative;
+	margin:10px auto;
+}
+
+.input_class{
+	border:1px solid #008888;
+	font: 20px Tahoma;
+	background-color:#EEEEEE;
+}
+
+.input_class:focus{
+	background-color:#FFFFFF;
+}
+
+fieldset{
+	border:3px solid #FFFF00;
+}
+
+label{
+	cursor:pointer;
+}

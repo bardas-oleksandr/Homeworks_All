@@ -1,0 +1,11 @@
+@import url("style.css");
+
+select{
+	width:720px;
+}
+
+#form_wrapper{
+	width:770px;
+	padding:20px;
+	margin:20px auto;
+}

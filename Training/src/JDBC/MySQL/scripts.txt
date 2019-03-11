@@ -1,0 +1,10 @@
+CREATE SCHEMA `europe` DEFAULT CHARACTER SET utf8 ;
+
+CREATE TABLE `europe`.`countries` (
+  `country` VARCHAR(30) NOT NULL,
+  `population` DOUBLE NOT NULL,
+  `area` DOUBLE NOT NULL,
+  `capital` VARCHAR(30) NOT NULL,
+  PRIMARY KEY (`country`))
+ENGINE = InnoDB
+DEFAULT CHARACTER SET = utf8;

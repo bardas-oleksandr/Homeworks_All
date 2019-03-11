@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util-4.3.xsd"
+       default-init-method="appear"
+       default-destroy-method="die">    <!--destroy-метод по умолчанию-->
+
+    <bean id="damsel" class="ua.levelup.Damsel" scope="prototype"/>   <!--scope="prototype" создает новый объект при
+    каждом обращении к методу getBean или внедернни зависимости
+    Кроме этого scope бывает singleton (по умолчанию), session, global-session, request-->
+
+    <bean id="oldDamsel" class="ua.levelup.Damsel">
+        <property name="titsSize"
+                  value="#{T(java.lang.Math).random()}"/> <!--Язык SpEL. Обращение к статическому методу-->
+    </bean>
+
+    <bean id="king" class="ua.levelup.King"
+          factory-method="getInstance"/>  <!--Доступ к бину через статический метод (Подходит для создания
+        экземпляра класса без публичного конструктора)-->
+
+    <bean id="dragon" class="ua.levelup.Dragon">
+        <constructor-arg value="10"/>   <!--Первый аргумент конструктора-->
+        <constructor-arg value="15"/>   <!--Второй аргумент конструктора-->
+    </bean>
+
+    <bean id="quest" class="ua.levelup.SlayDragonQuest"/>   <!--Используется конструктор по умолчанию-->
+
+    <bean id="braveKnight" class="ua.levelup.BraveKnight"
+          init-method="appearingOnTheScene" destroy-method="lastScene">   <!--Методы, вызываемые сразу после создания
+    объекта и сразу перед уничтожением-->
+        <constructor-arg ref="quest"/>  <!--Используется конструктор, которому передается параметр "quest"-->
+        <property name="knightName" value="Arthur"/>   <!--Свойства можно задавать через property-->
+        <property name="sword">
+            <bean class="ua.levelup.Sword">  <!--Внутренний компонент. У него нет смысла объявлять id.
+            Этот меч будет личным мечом рыцаря braveKnight-->
+                <constructor-arg value="5"/>
+            </bean>
+        </property>
+    </bean>
+
+    <bean id="funBobbiesSword" class="ua.levelup.Sword">
+        <constructor-arg value="6"/>
+    </bean>
+
+    <!--Почему-то не работает пространство имен "p"
+    <bean id="funBobbyKnight" class="ua.levelup.BraveKnight"
+          p:knightName="Fun Bobby"
+          p:sword-ref="funBobbiesSword">
+        <constructor-arg ref="quest"/>
+    </bean>
+    -->
+
+    <bean id="cowardKnight" class="ua.levelup.CowardKnight"
+          init-method="appearingOnTheScene">
+        <constructor-arg ref="quest"/>
+        <constructor-arg>
+            <bean class="ua.levelup.Sword"><!--Внутренний компонент можно передавать через конструктор-->
+                <constructor-arg value="3"/>
+            </bean>
+        </constructor-arg>
+        <property name="knightName" value="Billy the Coward"/>
+        <property name="damselList">    <!--Добавляем список. Возможные значения - list, set, prop, map-->
+            <list>                      <!--В самом классе может находится как коллекция, так и простой массив-->
+                <ref bean="whore#1"/>
+                <ref bean="whore#2"/>
+                <ref bean="whore#3"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="whore#1" class="ua.levelup.Whore">
+        <constructor-arg value="Sindy"/>
+    </bean>
+    <bean id="whore#2" class="ua.levelup.Whore">
+        <constructor-arg value="Joan"/>
+    </bean>
+    <bean id="whore#3" class="ua.levelup.Whore">
+        <constructor-arg value="Julie"/>
+    </bean>
+
+    <bean id="handsomeGuy" class="ua.levelup.Guy">
+        <property name="damselMap">
+            <map>
+                <entry key="tight cunt" value-ref="whore#1"/><!--Возможные значения: key(если ключ - строка),
+                key-ref, value (если value-строка), value-ref-->
+                <entry key="big tits" value-ref="whore#2"/>
+                <entry key="swallows cum" value-ref="whore#3"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="reachGuy" class="ua.levelup.Guy">
+        <property name="damselMap" value="#{handsomeGuy.getDamselMap()}"/>   <!--Язык SpEL. Происходит такое действие
+        reachGuy.setDamselMap(handsomeGuy.getDamselMap())
+        Можно также обращаться непосредственно к полям handsomeGuy, или строить целые цепочки такого типа:
+        handsomeGuy.getName()?.toUpperCase() При этом знак "?" является защищенным оператором доступа к свойству
+        и ограждает нас от NullPointerException в случае если getName() вернет null-->
+    </bean>
+
+    <bean id="uglyGuy" class="ua.levelup.Guy">
+        <property name="damselMap">
+            <null/>
+        </property>   <!--Передеча null. Может быть полезно для отмены
+        автоматического связывания значения свойства-->
+    </bean>
+
+    <bean id="princess" class="ua.levelup.Princess">
+        <property name="weight" value="#{45}"/> <!--Передача параметров через SpEL-->
+        <property name="name" value="#{'Diana'}"/>
+        <property name="virgin" value="#{false}"/>
+        <property name="fucker" value="#{handsomeGuy}"/>
+    </bean>
+
+    <bean id="prettyPrincess" class="ua.levelup.Princess">
+        <property name="weight" value="#{43}"/> <!--Передача параметров через SpEL-->
+        <property name="name" value="#{'Elizabeth'}"/>
+        <property name="virgin" value="#{(princess.getWeight() le 46) and (princess.virgin eq false)}"/>  <!--SpEL. Логическое выражение, эквивалентное
+        выражению ((princess.weight <= 46) && (prettyPrincess.weight == 43))
+        eq  ==
+        lt  <
+        le  <=
+        gt  >
+        ge  >=
+        Можно использовать тернарный оператор
+        <property name="song"
+            value="#{kenny.song != null ? kenny.song : 'Greensleeves'}"/>
+        Или оператор Элвиса
+        <property name="song" value="#{kenny.song ?: 'Greensleeves'}"/>
+        -->
+
+        <property name="fucker" value="#{handsomeGuy}"/>
+    </bean>
+
+    <bean id="minstrel" class="ua.levelup.SqueakyMinstrel"/>
+
+    <aop:config>
+        <aop:aspect ref="minstrel">
+            <aop:pointcut id="embark"
+                          expression="execution(* *.embarkOnQuest(..))"/>
+            <aop:before pointcut-ref="embark"
+                        method="singBefore"/>
+            <aop:after pointcut-ref="embark"
+                       method="singAfter"/>
+        </aop:aspect>
+        <aop:aspect ref="dragon">
+            <aop:pointcut id="exhale"
+                          expression="execution(* *.embarkOnQuest(..))"/>   <!--Первая звездочка означает любой тип возвращаемого значения
+                          Вторая звездочка означает любой класс (полный путь). Звездочки через пробел-->
+            <aop:before pointcut-ref="exhale"
+                        method="wakingUp"/>
+            <aop:after pointcut-ref="exhale"
+                       method="fire"/>
+        </aop:aspect>
+    </aop:config>
+
+    <!--К этому массиву мы можем обращаться с помощью SpEL при передаче значений свойствам
+    Например если в какой-то класс надо внедрить свойство City
+    Например так - #{cities[0]}
+    Или так - <property name="bigCities" value="#{cities.?[population gt 100000]}"/> - вернет коллекцию
+    городов с населением больше ста тыщь
+    <property name="bigCities" value="#{cities.^[population gt 100000]}"/> - вернет первый город из
+    полученной выборки
+    <property name="bigCities" value="#{cities.$[population gt 100000]}"/> - вернет последний город из
+    полученной выборки
+    <property name="cityNames" value="#{cities.![name]}"/> - отображение коллекции городов в коллекцию
+    названий городов
+    <property name="cityNames" value="#{cities.?[population gt 100000].![name + ', ' + state]}"/> - вернет
+    список названий "город штат" только городов с населением более 100000
+    -->
+    <util:list id="cities">
+        <bean class="ua.levelup.City">
+            <property name="name" value="Chicago"/>
+            <property name="population" value="2853114"/>
+        </bean>
+        <bean class="ua.levelup.City">
+            <property name="name" value="Atlanta"/>
+            <property name="population" value="537958"/>
+        </bean>
+        <bean class="ua.levelup.City">
+            <property name="name" value="Dallas"/>
+            <property name="population" value="1279910"/>
+        </bean>
+    </util:list>
+</beans>

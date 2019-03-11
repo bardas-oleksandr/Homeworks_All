@@ -1,0 +1,40 @@
+CREATE DATABASE "FishClassification"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+
+CREATE TABLE public.families
+(
+    family character varying(50) NOT NULL,
+    class character varying(50) NOT NULL,
+    PRIMARY KEY (family)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.families
+    OWNER to postgres;
+
+CREATE TABLE public.species
+(
+    species character varying(50) NOT NULL,
+    name character varying(50),
+    family character varying(50) NOT NULL,
+    PRIMARY KEY (species)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.species
+    OWNER to postgres;
+
+ALTER TABLE public.species
+    ADD CONSTRAINT families_to_species FOREIGN KEY (family)
+    REFERENCES public.families (family) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION;
+CREATE INDEX fki_families_to_species
+    ON public.species(family);

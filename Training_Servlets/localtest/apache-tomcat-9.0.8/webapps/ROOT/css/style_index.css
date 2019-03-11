@@ -1,0 +1,26 @@
+@import url("style.css");
+
+#wrapper{
+	margin:30px auto;
+	min-width:400px;
+	max-width:1680px;
+	width:600px;
+}
+
+#button_1_wrapper{
+	float:left;
+}
+
+#button_2_wrapper{
+	float:right;
+}
+
+#button_wrapper{
+	width:600px;
+	margin:150px auto 20px auto;
+}
+
+h1{
+	font:36px Trattatello, fantasy, sens-serif;
+	text-align:center;
+}

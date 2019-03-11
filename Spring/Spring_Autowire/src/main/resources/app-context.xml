@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+    <!--==========================Autowired by type=====================================-->
+    <!--1. При связывании по типу в контейнере должен быть ровно один бин необходимого типа-->
+    <!--2. Если подходящего бина нет, внедрение просто не происходит. Исключения не будет-->
+    <!--3. Если есть несколько бинов подходящего класса, получим исключение-->
+    <!--4. Помечать аннотацией @Autowired поля нет необходимости-->
+    <bean id="personByType" class="ua.levelup.autowired.PersonByType" autowire="byType" lazy-init="true"/>
+
+    <bean id="addressByType" class="ua.levelup.fieldstypes.AddressByType">
+        <property name="street" value="Soborna"/>
+    </bean>
+
+    <bean id="educationByType" class="ua.levelup.fieldstypes.EducationByType">
+        <property name="university" value="DNURT"/>
+    </bean>
+
+    <!--==========================Autowired by name=====================================-->
+    <!--1. При связывании по типу в контейнере должен быть бин с именем, совпадающим с именем поля,
+     в которое надо осуществить внедрение зависимости
+     В этом примере у нас по два бина каждого типа AddressByName и EducationByName
+     Но выбираются те бины, которые подходят по названию-->
+    <!--2. Если подходящего бина нет, внедрение просто не происходит. Исключения не будет-->
+    <!--3. Помечать аннотацией @Autowired поля нет необходимости-->
+    <bean id="personByName" class="ua.levelup.autowired.PersonByName" autowire="byName" lazy-init="true"/>
+
+    <bean id="addressByName" class="ua.levelup.fieldstypes.AddressByName">
+        <property name="street" value="Soborna"/>
+    </bean>
+
+    <bean id="addressByName1" class="ua.levelup.fieldstypes.AddressByName">
+        <property name="street" value="Gagarina"/>
+    </bean>
+
+    <bean id="educationByName" class="ua.levelup.fieldstypes.EducationByName">
+        <property name="university" value="DNURT"/>
+    </bean>
+
+    <bean id="educationByName1" class="ua.levelup.fieldstypes.EducationByName">
+        <property name="university" value="DNU"/>
+    </bean>
+
+    <!--==========================Autowired by constructor=====================================-->
+    <!--1. Выбирается конструктор с максимальным числом параметров-->
+    <!--2. Выбор бинов осуществляется в первую очередь по имени,
+    если нет подходящего имени, тогда по типу,
+    если несколько бинов подходящего типа и нет подходящего имени, тогда инициализация просто не происходит-->
+    <!--3. Помечать аннотацией @Autowired поля нет необходимости-->
+    <bean id="personConstructor" class="ua.levelup.autowired.PersonConstructor" autowire="constructor" lazy-init="true"/>
+
+    <bean id="addressConstructor" class="ua.levelup.fieldstypes.AddressConstructor">
+        <property name="street" value="Soborna"/>
+    </bean>
+
+    <bean id="educationConstructor" class="ua.levelup.fieldstypes.EducationConstructor">
+        <property name="university" value="DNURT"/>
+    </bean>
+
+    <bean id="addressConstructor1" class="ua.levelup.fieldstypes.AddressConstructor">
+        <property name="street" value="Gagarina"/>
+    </bean>
+
+    <bean id="educationConstructor1" class="ua.levelup.fieldstypes.EducationConstructor">
+        <property name="university" value="DNU"/>
+    </bean>
+
+    <!--==========================Autowired disabled=====================================-->
+    <!--1. Внедрение надо осуществлять "вручную" через атрибут ref-->
+    <bean id="personNo" class="ua.levelup.autowired.PersonNo" autowire="no" lazy-init="true">
+        <property name="addressNo" ref="addressNo"/>
+        <property name="educationNo" ref="educationNo"/>
+    </bean>
+
+    <bean id="addressNo" class="ua.levelup.fieldstypes.AddressNo">
+        <property name="street" value="Soborna"/>
+    </bean>
+
+    <bean id="addressNo1" class="ua.levelup.fieldstypes.AddressNo">
+        <property name="street" value="Gagarina"/>
+    </bean>
+
+    <bean id="educationNo" class="ua.levelup.fieldstypes.EducationNo">
+        <property name="university" value="DNURT"/>
+    </bean>
+
+    <bean id="educationNo1" class="ua.levelup.fieldstypes.EducationNo">
+        <property name="university" value="DNU"/>
+    </bean>
+
+    <!--==========================Default autowired====================================-->
+    <!--1. Внедрение надо осуществлять "вручную" через атрибут ref-->
+    <bean id="personDefault" class="ua.levelup.autowired.PersonDefault" autowire="default" lazy-init="true">
+        <property name="addressDefault" ref="addressDefault"/>
+        <property name="educationDefault" ref="educationDefault"/>
+    </bean>
+
+    <bean id="addressDefault" class="ua.levelup.fieldstypes.AddressDefault">
+        <property name="street" value="Soborna"/>
+    </bean>
+
+    <bean id="educationDefault" class="ua.levelup.fieldstypes.EducationDefault">
+        <property name="university" value="DNURT"/>
+    </bean>
+
+    <bean id="addressDefault1" class="ua.levelup.fieldstypes.AddressDefault">
+        <property name="street" value="Gagarina"/>
+    </bean>
+
+    <bean id="educationDefault1" class="ua.levelup.fieldstypes.EducationDefault">
+        <property name="university" value="DNU"/>
+    </bean>
+
+</beans>

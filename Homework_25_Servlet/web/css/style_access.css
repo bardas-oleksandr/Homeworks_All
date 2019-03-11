@@ -1,0 +1,43 @@
+@import url("style.css");
+
+#wrapper{
+	width:400px;
+	padding:20px;
+	margin:20px auto;
+	outline: 2px solid #FF0000;
+}
+
+#request_wrapper{
+	padding:20px;
+	margin:20px auto;
+}
+
+#choice_wrapper{
+	width:360px;
+	padding:20px;
+	margin:20px auto;
+	outline: 2px solid #FF0000;
+	background:url(../images/background_01.jpg);
+	background-repeat: x-repeat;
+}
+
+h1{
+	font:36px Trattatello, fantasy, sens-serif;
+	text-align:center;
+}
+
+a:link{
+	color:rgb(0,0,255)
+}
+
+a:visited{
+	color:rgb(255,0,255)
+}
+
+a:hover{
+	color:rgb(255,0,0)
+}
+
+a:active{
+	color:rgb(255,0,0)
+}

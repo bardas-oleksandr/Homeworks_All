@@ -1,0 +1,135 @@
+CREATE DATABASE "WildLifeTest"
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+
+CREATE TABLE public.topics
+(
+    topic_id serial NOT NULL,
+    topic character varying(50) NOT NULL,
+    PRIMARY KEY (topic_id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.topics
+    OWNER to postgres;
+
+CREATE TABLE public.questions
+(
+    question_id serial NOT NULL,
+    question character varying(100) NOT NULL,
+    topic_id integer NOT NULL,
+    PRIMARY KEY (question_id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.questions
+    OWNER to postgres;
+
+CREATE TABLE public.probable_answers
+(
+    answer_id serial NOT NULL,
+    answer character varying(50) NOT NULL,
+    is_correct boolean NOT NULL,
+    question_id integer NOT NULL,
+    PRIMARY KEY (answer_id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.probable_answers
+    OWNER to postgres;
+
+CREATE TABLE public.users
+(
+    login character varying(20) NOT NULL,
+    password character varying(15) NOT NULL,
+    name character varying(30) NOT NULL,
+    PRIMARY KEY (login)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.users
+    OWNER to postgres;
+
+CREATE TABLE public.attempts
+(
+    attempt_id serial NOT NULL,
+    login character varying(20) NOT NULL,
+    date timestamp(8) without time zone NOT NULL,
+    result double precision NOT NULL,
+    PRIMARY KEY (attempt_id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.attempts
+    OWNER to postgres;
+
+CREATE TABLE public.given_answers
+(
+    given_answer_id serial NOT NULL,
+    question_id integer NOT NULL,
+    given_answer character varying(50) NOT NULL,
+    is_correct boolean NOT NULL,
+    attempt_id integer NOT NULL,
+    PRIMARY KEY (given_answer_id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.given_answers
+    OWNER to postgres;
+
+
+
+
+ALTER TABLE public.questions
+    ADD CONSTRAINT topic_to_question FOREIGN KEY (topic_id)
+    REFERENCES public.topics (topic_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION;
+CREATE INDEX fki_topic_to_question
+    ON public.questions(topic_id);
+
+ALTER TABLE public.probable_answers
+    ADD CONSTRAINT question_to_probable_answer FOREIGN KEY (question_id)
+    REFERENCES public.questions (question_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION;
+CREATE INDEX fki_question_to_probable_answer
+    ON public.probable_answers(question_id);
+
+ALTER TABLE public.attempts
+    ADD CONSTRAINT user_to_attempt FOREIGN KEY (login)
+    REFERENCES public.users (login) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION;
+CREATE INDEX fki_user_to_attempt
+    ON public.attempts(login);
+
+ALTER TABLE public.given_answers
+    ADD CONSTRAINT attempt_to_given_answer FOREIGN KEY (attempt_id)
+    REFERENCES public.attempts (attempt_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION;
+CREATE INDEX fki_attempt_to_given_answer
+    ON public.given_answers(attempt_id);
+
+ALTER TABLE public.given_answers
+    ADD CONSTRAINT question_to_given_answer FOREIGN KEY (question_id)
+    REFERENCES public.questions (question_id) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION;
+CREATE INDEX fki_question_to_given_answer
+    ON public.given_answers(question_id);

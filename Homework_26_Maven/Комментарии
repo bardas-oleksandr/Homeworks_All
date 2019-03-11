@@ -1,0 +1,23 @@
+0. CATALINA_PATH. Неважно из какой папки мы будем стартовать сервер tomcat, запускаться будет тот сервер,
+который прописан в CATALINA_PATH. И работать будет соответсвующий сервер.
+В CATALINA_PATH у меня прописан адрес
+1. Настройка порта. Номер порта дляя томката надо задавать в:
+            localtest/apache-tomcat-9.0.8/conf/server.xml
+            в каждом файле html, в котором есть форма
+            Например, можно изменить порт 8080 на порт по умолчанию для http - 80.
+            Тогда в браузере можно писать просто http://localhost/Homework_26_Maven/
+2. Как определить на основе чего работает приложение - на основе war или jar
+        В файле pom.xml есть строка
+        <packaging>war</packaging>
+3. Как создать файл war
+        mvn package
+4. Куда ложить файл war.
+        В папку localtest/apache-tomcat-9.0.8/webapps
+5. Как называть файл war
+        Имя задается в файле pom.xml:
+        <build>
+                <finalName>Homework_26_Maven</finalName>
+        </build>
+6. Как обращаться к приложению в браузере.
+        http://localhost:8080/Homework_26_Maven/
+        где Homework_26_Maven - имя, заданное в pom.xml в теге finalName

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html: charset=utf-8">
+		<title>Login page</title>
+		<link href="css/style_login.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="form_wrapper">
+			<form action=""http://localhost:8080/examples/servlets/servlet/LoginServlet" methiod="POST" name="login_form">
+				<fieldset>
+					<legend>Login form</legend>
+					<div class="label_class">
+						<label>
+							<p>User name:</p>
+							<div class="div_input_class">
+								<input type="text" class="input_class" name="user_name" size="20" maxLength="20">
+							</div>
+						</label>
+					</div>
+					
+					<div class="label_class">
+						<label>
+							<p>Password:</p>
+							<div class="div_input_class">
+								<input type="password" class="input_class" name="password" size="20" maxLength="20">
+							</div>
+						</label>
+					</div>
+					
+					<div id="button_wrapper">
+						<input type="image" src="images/submit.png" name="login_button" width="142" height="45">
+					<div>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>

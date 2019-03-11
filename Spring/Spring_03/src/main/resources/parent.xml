@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="ua.levelup.Anno"/>
+
+    <bean id="braveKnight" class="ua.levelup.XML.Heroes.BraveKnight">
+        <property name="quest">
+            <ref bean="toughQuest"/>    <!--Обращаемся к бину по его псевдониму а не по имени-->
+        </property>
+        <property name="power" value="9"/>
+    </bean>
+
+    <bean id="cowardKnight" class="ua.levelup.XML.Heroes.BraveKnight">
+        <property name="quest">
+            <ref bean="slayOgreQuest"/>
+        </property>
+        <property name="power" value="12"/>
+    </bean>
+
+    <bean id="slayDragonQuest" name="toughQuest" class="ua.levelup.XML.Quests.SlayMonsterQuest">
+        <property name="monster" ref="dragon"/>
+    </bean>
+
+    <bean id="slayOgreQuest" class="ua.levelup.XML.Quests.SlayMonsterQuest">
+        <property name="monster" ref="ogre"/>
+    </bean>
+
+    <bean id="dragon" class="ua.levelup.XML.Heroes.Dragon">
+        <property name="power" value="10"/>
+    </bean>
+
+    <bean id="ogre" class="ua.levelup.XML.Heroes.Ogre">
+        <property name="power" value="10"/>
+    </bean>
+</beans>

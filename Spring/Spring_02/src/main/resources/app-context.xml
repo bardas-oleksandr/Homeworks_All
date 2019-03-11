@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+НАДО ДЛЯ РАБОТЫ С АННОТАЦИЯМИ
+xmlns:context="http://www.springframework.org/schema/context"
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+-->
+
+
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="ua.levelup"/> <!--Указываем в каком package искать аннотации-->
+    <bean id="beast" class="ua.levelup.Dragon">
+        <constructor-arg type="int" value="10"/>    <!--У нас есть конструктор со стрингом и конструктор с интом
+        по умолчанию вызовется тот что со стрингом. Но можно указать конкретный тип параметра
+        Если конструктор аннотировать через @Autowired, это все (type="int") можно не делать-->
+    </bean>
+
+    <bean id="story" class="ua.levelup.Story" lazy-init="true">
+        <property name="dragon" ref="Bigbeast"></property> <!--У нас нет бина Bigbeast,
+        поэтому при попытке внедрения вывалится BeanCreationException-->
+    </bean>
+</beans>

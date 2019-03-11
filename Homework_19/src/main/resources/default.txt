@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Default prices</comment>
+<entry key="Rose flowerred">2.5</entry>
+<entry key="Rose floweryellow">2.4</entry>
+<entry key="Rose flowerwhite">2.3</entry>
+<entry key="Rose flowerorange">2.6</entry>
+<entry key="Tulipwhite">1.8</entry>
+<entry key="Tulipred">1.9</entry>
+<entry key="Tulipyellow">2.1</entry>
+<entry key="Tuliporange">2.1</entry>
+</properties>

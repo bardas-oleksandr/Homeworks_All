@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--Это надо для создания бинов через аннотации-->
+    <context:component-scan base-package="ua.levelup.aspectj"/>
+    <!--Это надо для создания аспектов через аннотации.
+    Более конретно - для создания прокси-объектов-->
+    <aop:aspectj-autoproxy />
+
+
+    <bean id="sun" class="ua.levelup.xml.Sun"/>
+
+    <bean id="king" class="ua.levelup.xml.King"/>
+
+    <bean id="princess" class="ua.levelup.xml.Princess"/>
+
+    <bean id="dragon" class="ua.levelup.xml.Dragon">
+        <constructor-arg value="10"/>
+    </bean>
+
+    <bean id="knight" class="ua.levelup.xml.Knight">
+        <constructor-arg ref="dragon"/>
+        <constructor-arg value="9"/>
+    </bean>
+
+    <bean id="magician" class="ua.levelup.xml.circus.Magician"/>
+
+    <bean id="volunteer" class="ua.levelup.xml.circus.Volunteer"/>
+
+    <!--Этот бин нужен для создания аспекта. Даже несмотря на то что класс
+    ua.levelup.aspectj.King уже помечен аннотацией @Aspect-->
+    <bean id="annotatedKing" class="ua.levelup.aspectj.King"/>
+
+    <bean id="annotatedMagician" class="ua.levelup.aspectj.circus.Magician"/>
+
+    <bean class="ua.levelup.aspectj.SingerIntroducer"/> <!--Бин, являющийся аспектом для внедрения интерфейса
+    Singer в бин bigDragon-->
+
+    <aop:config>
+        <aop:aspect ref="king">
+            <!--Создаем именнованный срез точек сопряжения и обращаемся к этому сразу по id-->
+            <aop:pointcut id="dragonSteal" expression="execution(* ua.levelup.xml.Dragon.steal(..))"/>
+            <aop:before pointcut-ref="dragonSteal" method="speak"/>
+            <aop:after pointcut-ref="dragonSteal" method="askAboutHelp"/>
+        </aop:aspect>
+
+        <aop:aspect ref="sun">
+            <!--Тут мы не создаем именованный pointcut, а просто указываем выражение execution....-->
+            <aop:around pointcut="execution(* ua.levelup.xml.Knight.embark(..))"
+                        method="shine"/>    <!--Этот режим предполагает создание в классе
+                        Sun метода public void shine(ProceedingJoinPoint joinpoint)-->
+
+            <!--В данном примере исключение, бросаемое методом embark(..) сначала будет поймано
+            AOP-советом aop:after-throwing в классе прицессы. Непоятно почему такой же совет
+            в классе Sun отработает после после совета aop:around-->
+            <aop:after-throwing pointcut="execution(* ua.levelup.xml.Knight.embark(..))"
+                                method="afterThrowingMethod"/>
+        </aop:aspect>
+
+        <!--Принцесса первая узнает о смерти рыцаря. Раньше чем отработает метод method="shine",
+        заданный в aop:around-->
+        <aop:aspect ref="princess">
+            <aop:after-throwing pointcut="execution(* ua.levelup.xml.Knight.embark(..))"
+                                method="cry"/>
+        </aop:aspect>
+
+        <!--Передача параметров вызываемого метода методу аспекта-->
+        <aop:aspect ref="magician"> <!--Ссылка на бин magician-->
+            <!--Срез точек сопряжения определяется вызовом методом thinkOfSomething(String), причем
+            аргумент этого метода должен называться thoughts-->
+            <aop:before pointcut="execution(* ua.levelup.xml.circus.Thinker.thinkOfSomething(String))
+            and args(thoughts)"
+            method="interceptThoughts" arg-names="thoughts"/> <!--Метод interceptThoughts будет
+            вызван перед вызовом метода thinkOfSomething(String) и ему будет передан параметр thoughts-->
+        </aop:aspect>
+
+        <!--Внедрение новых интерфейсов в бины (с помощью аспектов-->
+        <aop:aspect>
+            <!--Мы в рантайме добавляем к классу Dragon имплементацию интерфейса
+            Singer. Реализацию метода этого интерфейса берем из класса CoolSinger-->
+            <aop:declare-parents types-matching="ua.levelup.xml.Dragon+"
+                                 implement-interface="ua.levelup.xml.Singer"
+                                 default-impl="ua.levelup.xml.CoolSinger"/>
+        </aop:aspect>
+
+
+
+    </aop:config>
+</beans>

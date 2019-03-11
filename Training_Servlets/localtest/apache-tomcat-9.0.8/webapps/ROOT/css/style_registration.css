@@ -1,0 +1,13 @@
+@import url("style.css");
+
+#form_wrapper{
+	width:475px;
+	padding:20px;
+	margin:20px auto;
+}
+
+.div_input_class{
+	position:absolute;
+	top:-4px;
+	margin-left:195px;
+}

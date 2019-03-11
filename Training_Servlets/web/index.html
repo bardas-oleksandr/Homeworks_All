@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html: charset=utf-8">
+	<title>Testing system</title>
+	<link href="css/style_index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+	<form action="http://localhost:8080/AddCookieServlet" method="POST" name="my_form">
+		<fieldset>
+			<legend>User form</legend>
+			<div>Your name<input type="text" name="name"></div>
+			<div>Your password<input type="password" name="password"></div>
+			<p>Are you alien?</p>
+			<div id="alien_yes">
+				<label>Yes<input type="radio" name="alien_origin" value="yes" checked></label>
+			</div>
+			<div id="alien_no">
+				<label>No<input type="radio" name="alien_origin" value="no"></label>
+			</div>
+			<input type="submit">
+		</fieldset>
+	</form>
+</div>
+</body>
+</html>
